@@ -1,16 +1,4 @@
 //Object literal
-
-/*
-let utilisateur = {
-    nom : 'Musole',
-    age : 25,
-    email : 'musole@gmail.com',
-    location : 'DR Congo'
-};
-
-console.log(utilisateur);
-*/
-
 let utilisateur = {
     nom : 'Musole',
     age : 25,
@@ -34,6 +22,18 @@ let utilisateur = {
     }
 };
 
+//Affichage d'un objet
 console.log(utilisateur);
+
+//Affichage d'un attribut d'un object
+console.log(utilisateur.nom);
+
+//Réaffectation d'une valeur à un attribut
+console.log(utilisateur.nom = 'Blaise');
+
+//Une autre manière d'afficher un object
+console.log(utilisateur['nom']);
+console.log(utilisateur['email']);
+console.log(utilisateur['email'] = 'janathan@gmail.com');
+console.log(typeof utilisateur);
 console.log(utilisateur.afficherBlogs());
-console.log(utilisateur,utilisateur.afficherBlogs());
